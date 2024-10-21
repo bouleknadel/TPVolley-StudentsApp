@@ -48,6 +48,7 @@ Cette application Android est conçue pour gérer les informations des étudiant
 Cette application suppose qu'un serveur backend est configuré pour gérer les opérations CRUD pour les données des étudiants. Assurez-vous que votre serveur est correctement configuré et accessible avant d'exécuter l'application.
 
 ## Screen Video
-[![Vidéo de démonstration]](https://github.com/user-attachments/assets/59d83e56-230c-4f3e-8587-bed4c05c50e6)
+https://github.com/user-attachments/assets/0841971f-4b15-4fbd-ae03-da3c33c3a035
+
 ## Contributors
 - BOULEKNADEL Abderrahmane https://github.com/bouleknadel
