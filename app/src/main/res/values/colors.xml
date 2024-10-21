@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blue">#2196F3</color> <!-- Exemple de bleu -->
+    <color name="red">#F44336</color> <!-- Exemple de rouge -->
+    <color name="blue2">#007cb9</color> <!-- Exemple de rouge -->
+    <color name="secondary">#292b2c</color> <!-- Exemple de rouge -->
+
+
+</resources>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/textViewNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nom : " />
+
+    <EditText
+        android:id="@+id/editTextNom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prénom : " />
+
+    <EditText
+        android:id="@+id/editTextPrenom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/textViewVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ville : " />
+
+    <Spinner
+        android:id="@+id/spinnerVille"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupSexe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp">
+
+        <RadioButton
+            android:id="@+id/m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homme" />
+
+        <RadioButton
+            android:id="@+id/f"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Femme" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/selectImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue2"
+        android:text="Modier l'image" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop" />
+
+  <!--  <Button
+        android:id="@+id/add"
+        android:layout_width="match_<parent"
+        android:layout_height="wrap_content"
+        android:text="Modifier Étudiant" /> -->
+</LinearLayout>
+    </ScrollView>

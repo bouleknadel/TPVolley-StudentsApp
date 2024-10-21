@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imageViewEtudiant"
+        android:layout_width="72dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"
+        android:clipToOutline="true"
+        android:contentDescription="@string/etudiant_image"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewNom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewPrenom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewVille"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/ic_localisation"
+            android:drawablePadding="4dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textViewSexe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:drawableStart="@drawable/ic_homme"
+            android:drawablePadding="4dp"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonModifier"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.8"
+            android:backgroundTint="@color/blue2"
+            android:drawableEnd="@drawable/ic_modifier"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Modifier"
+            android:textColor="@android:color/white" />
+
+        <Button
+            android:id="@+id/buttonSupprimer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:alpha="0.8"
+            android:backgroundTint="@color/red"
+            android:drawableEnd="@drawable/ic_supprimer"
+            android:drawablePadding="8dp"
+            android:padding="8dp"
+            android:text="Supprimer"
+            android:textColor="@android:color/white" />
+    </LinearLayout>
+</LinearLayout>

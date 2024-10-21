@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">projetws</string>
+    <string-array name="villes">
+        <item>Casablanca</item>
+        <item>Rabat</item>
+        <item>Marakech</item>
+        <item>Tanger</item>
+        <item>Fès</item>
+        <item>Agadir</item>
+    </string-array>
+    <string name="etudiant_image">Votre texte ou URL ici</string>
+    <string name="icon_user">Icône utilisateur</string>
+    <string name="icon_location">Icône de localisation</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
